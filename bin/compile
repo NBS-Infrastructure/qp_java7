@@ -1,1 +1,6 @@
 #!/usr/bin/env bash
+
+build=$1
+cache=$1
+
+tar zxvf resources/tomcat.tar.gz -C $build
